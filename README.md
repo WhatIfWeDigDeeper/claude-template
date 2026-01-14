@@ -28,6 +28,8 @@ Type these in Claude Code to trigger them:
 | `/integrate-parallel-work` | Merge parallel features into integration branch |
 | `/parallel-agents` | Spawn subagents for parallel work |
 
+More details in [CLAUDE.md](CLAUDE.md#commands-user-initiated)
+
 ### Skills (Claude Suggests)
 
 Claude will proactively suggest these when appropriate:
@@ -39,6 +41,8 @@ Claude will proactively suggest these when appropriate:
 | **Maintenance:** | `/refactor`, `/update-deps`, `/audit-and-fix`, `/perf-audit` |
 | **Documentation:** | `/e2e-test`, `/document-feature` |
 
+More details in [CLAUDE.md](CLAUDE.md#skills-claude-can-suggest)
+
 ## Customization
 
 - **settings.json**: Configure plugins and permissions
@@ -49,6 +53,7 @@ Claude will proactively suggest these when appropriate:
 ## Assumptions
 
 These configurations assume:
+
 - npm for package management
 - TypeScript
 - Jest + React Testing Library for unit tests
