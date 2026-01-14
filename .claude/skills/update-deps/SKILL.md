@@ -1,10 +1,10 @@
 ---
-skill: npm-latest
+skill: update-deps
 description: Update npm packages to latest versions with validation in isolated worktree
-location: project
+arguments: specific packages, glob pattern, or '.' for all
 ---
 
-# Update NPM Packages: $ARGUMENTS
+# Update Dependencies: $ARGUMENTS
 
 Updates npm packages to their latest versions with automated testing and validation in an isolated worktree.
 
