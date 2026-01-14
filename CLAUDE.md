@@ -12,7 +12,6 @@ Template repository with Claude Code skills, commands, and configuration for Nod
 .claude/
 ├── commands/     # User-initiated slash commands
 ├── skills/       # Proactive automations Claude can suggest
-├── hooks/        # Hook configuration examples
 ├── scripts/      # Automation scripts
 └── settings.json # Plugins and permissions
 ```

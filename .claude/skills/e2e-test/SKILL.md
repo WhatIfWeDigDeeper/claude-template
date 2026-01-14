@@ -10,8 +10,8 @@ Creates comprehensive Playwright end-to-end tests in an isolated git worktree.
 
 ## Arguments
 
-- **Specific feature**: `expense-form`, `auth`, `dark-mode`
-- **Glob pattern**: `expense-*`, `*-modal`
+- **Specific feature**: `login-form`, `dashboard`, `settings`
+- **Glob pattern**: `user-*`, `*-modal`
 - **All features**: `.` or `all`
 
 ## Process

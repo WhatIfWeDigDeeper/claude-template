@@ -53,10 +53,12 @@ Format: `type: concise description`
 ### 5. Create Commit
 
 ```bash
-git commit -m "type: description"
+git commit -m "type: description
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
 ```
 
-If user provided message override, use that instead.
+If user provided message override, use that instead (still include Co-Authored-By).
 
 ### 6. Report
 

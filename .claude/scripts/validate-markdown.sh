@@ -82,6 +82,6 @@ else
   echo "  2. Ensure one blank line between code block and text"
   echo "  3. Use 4 backticks for nested code examples"
   echo ""
-  echo "See CLAUDE.md ## Markdown Documentation Guidelines for details"
+  echo "Fix duplicate or unclosed code block markers before committing."
   exit 1
 fi
