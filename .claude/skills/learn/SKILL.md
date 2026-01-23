@@ -124,3 +124,4 @@ After applying changes, show:
 - **Be minimal**: Only add what's truly useful, avoid over-documenting
 - **Preserve structure**: Fit new content into existing CLAUDE.md organization
 - **Avoid duplication**: Check if similar content already exists before adding
+- **Protect sensitive data**: Before persisting to docs/config, redact secrets, credentials, tokens, private URLs, API keys, passwords, and customer data. Generalize examples to avoid exposing sensitive information.
