@@ -8,7 +8,7 @@ Type these in Claude Code to trigger them:
 
 | Command | Purpose |
 |---------|---------|
-| `/commit [message]` | Stage changes and create commit with generated message |
+| `/commit` | Stage changes and create commit with generated message |
 | `/pr` | Create pull request with generated description |
 | `/review` | Review code changes before committing |
 | `/parallel-work [features...]` | Set up git worktrees for parallel feature development |
