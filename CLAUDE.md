@@ -43,9 +43,9 @@ Template repository with Claude Code skills, commands, and configuration for Nod
 
 **Maintenance:**
 - `refactor <target>` - Refactor code while preserving tests
-- `update-deps <packages?>` - Update dependencies with validation (supports globs, '.' for all)
-- `audit-and-fix <packages?>` - Security audit and fix vulnerabilities
-- `perf-audit <area?>` - Profile and optimize performance
+- `update-deps [packages]` - Update dependencies with validation (supports globs, '.' for all)
+- `audit-and-fix [packages]` - Security audit and fix vulnerabilities
+- `perf-audit [area]` - Profile and optimize performance
 
 **Documentation:**
 - `e2e-test <feature or flow>` - Create Playwright e2e tests

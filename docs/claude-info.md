@@ -24,9 +24,9 @@ Claude will proactively suggest these when appropriate:
 | Purpose | Skills |
 |---------|--------|
 | **Building & Fixing** | `fix-build`, `debug <issue description>` |
-| **Code Generation** | `add-feature <name and description>`, `add-component <name and description>`, `add-hook <name and description>`, `add-api-route <route>`, `add-test <component or area>` |
-| **Maintenance** | `refactor <target>`, `update-deps <packages?>`, `audit-and-fix <packages?>`, `perf-audit <area?>` |
-| **Documentation** | `e2e-test <feature or flow>`, `document-feature <name and description>` |
+| **Code Generation** | `add-feature <name and requirements>`, `add-component <name and requirements>`, `add-hook <name and requirements>`, `add-api-route <route and requirements>`, `add-test <component or area>` |
+| **Maintenance** | `refactor <target>`, `update-deps [packages]`, `audit-and-fix [packages]`, `perf-audit [area]` |
+| **Documentation** | `e2e-test <feature or flow>`, `document-feature <name>` |
 | **Meta** | `learn` |
 
 More details in [CLAUDE.md](../CLAUDE.md#skills-claude-can-suggest)
