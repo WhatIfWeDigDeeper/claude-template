@@ -32,24 +32,24 @@ Template repository with Claude Code skills, commands, and configuration for Nod
 
 **Building & Fixing:**
 - `fix-build` - Diagnose and fix build/type errors
-- `debug <issue>` - Investigate and fix a bug systematically
+- `debug <issue description>` - Investigate and fix a bug systematically
 
 **Code Generation:**
-- `add-feature <name>` - Add feature with full validation in worktree
-- `add-component <name>` - Create React component with TypeScript
-- `add-hook <name>` - Create custom React hook with tests
+- `add-feature <name and description>` - Add feature with full validation in worktree
+- `add-component <name and description>` - Create React component with TypeScript
+- `add-hook <name and description>` - Create custom React hook with tests
 - `add-api-route <route>` - Create Next.js API route with validation
-- `add-test <component>` - Add Jest/React Testing Library tests
+- `add-test <component or area>` - Add Jest/React Testing Library tests
 
 **Maintenance:**
 - `refactor <target>` - Refactor code while preserving tests
-- `update-deps <packages>` - Update dependencies with validation (supports globs, '.' for all)
-- `audit-and-fix <packages>` - Security audit and fix vulnerabilities
-- `perf-audit` - Profile and optimize performance
+- `update-deps <packages?>` - Update dependencies with validation (supports globs, '.' for all)
+- `audit-and-fix <packages?>` - Security audit and fix vulnerabilities
+- `perf-audit <area?>` - Profile and optimize performance
 
 **Documentation:**
-- `e2e-test <feature>` - Create Playwright e2e tests
-- `document-feature <name>` - Generate technical and user documentation
+- `e2e-test <feature or flow>` - Create Playwright e2e tests
+- `document-feature <name and description>` - Generate technical and user documentation
 
 **Meta:**
 - `learn` - Extract lessons from conversation and persist to project configuration
