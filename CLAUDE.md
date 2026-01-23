@@ -51,6 +51,9 @@ Template repository with Claude Code skills, commands, and configuration for Nod
 - `e2e-test <feature>` - Create Playwright e2e tests
 - `document-feature <name>` - Generate technical and user documentation
 
+**Meta:**
+- `learn` - Extract lessons from conversation and persist to project configuration
+
 ## Scripts
 
 - `bash .claude/scripts/validate-markdown.sh` - Check markdown formatting
