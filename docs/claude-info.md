@@ -8,12 +8,12 @@ Type these in Claude Code to trigger them:
 
 | Command | Purpose |
 |---------|---------|
-| `/commit` | Stage changes and create commit with generated message |
+| `/commit [message]` | Stage changes and create commit with generated message |
 | `/pr` | Create pull request with generated description |
 | `/review` | Review code changes before committing |
-| `/parallel-work` | Set up git worktrees for parallel feature development |
-| `/integrate-parallel-work` | Merge parallel features into integration branch |
-| `/parallel-agents` | Spawn subagents for parallel work |
+| `/parallel-work [features...]` | Set up git worktrees for parallel feature development |
+| `/integrate-parallel-work [features...]` | Merge parallel features into integration branch |
+| `/parallel-agents [features...]` | Spawn subagents for parallel work |
 
 More details in [CLAUDE.md](../CLAUDE.md#commands-user-initiated)
 
@@ -23,10 +23,10 @@ Claude will proactively suggest these when appropriate:
 
 | Purpose | Skills |
 |---------|--------|
-| **Building & Fixing** | `fix-build`, `debug` |
-| **Code Generation** | `add-feature`, `add-component`, `add-hook`, `add-api-route`, `add-test` |
-| **Maintenance** | `refactor`, `update-deps`, `audit-and-fix`, `perf-audit` |
-| **Documentation** | `e2e-test`, `document-feature` |
+| **Building & Fixing** | `fix-build`, `debug <issue>` |
+| **Code Generation** | `add-feature <name>`, `add-component <name>`, `add-hook <name>`, `add-api-route <route>`, `add-test <component>` |
+| **Maintenance** | `refactor <target>`, `update-deps <packages>`, `audit-and-fix <packages>`, `perf-audit` |
+| **Documentation** | `e2e-test <feature>`, `document-feature <name>` |
 | **Meta** | `learn` |
 
 More details in [CLAUDE.md](../CLAUDE.md#skills-claude-can-suggest)
