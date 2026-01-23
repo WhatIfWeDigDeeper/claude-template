@@ -1,5 +1,11 @@
 {
   "permissions": {
+    "allow": [
+      "Bash",
+      "Read(*)",
+      "Glob(*)",
+      "Grep(*)"
+    ],
     "deny": [
       "Read(.env*)",
       "Write(.env*)",
@@ -7,6 +13,25 @@
       "Bash(rm -rf /)",
       "Bash(sudo *)",
       "Bash(chmod 777 *)"
+    ],
+    "defaultMode": "acceptEdits"
+  },
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true,
+    "network": {
+      "allowUnixSockets": [
+        "/var/run/docker.sock"
+      ],
+      "allowLocalBinding": true
+    },
+    "excludedCommands": [
+      "docker",
+      "psql",
+      "mysql",
+      "mongosh",
+      "npm",
+      "redis-cli"
     ]
   },
   "enabledPlugins": {
