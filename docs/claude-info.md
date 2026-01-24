@@ -2,6 +2,24 @@
 
 This project includes Claude Code configuration (skills, commands, settings) for enhanced AI-assisted development.
 
+- [Commands (User-Initiated)](#commands-user-initiated)
+- [Skills (Claude Suggests)](#skills-claude-suggests)
+- [Plugins](#plugins)
+  - [commit-commands](#commit-commands)
+  - [code-review](#code-review)
+  - [pr-review-toolkit](#pr-review-toolkit)
+  - [feature-dev](#feature-dev)
+  - [claude-md-management](#claude-md-management)
+  - [claude-code-setup](#claude-code-setup)
+  - [frontend-design](#frontend-design)
+  - [ralph-loop](#ralph-loop)
+  - [code-simplifier](#code-simplifier)
+  - [playwright](#playwright)
+  - [typescript-lsp](#typescript-lsp)
+  - [security-guidance](#security-guidance)
+- [Customization](#customization)
+- [Assumptions](#assumptions)
+
 ## Commands (User-Initiated)
 
 Type these in Claude Code to trigger them:
