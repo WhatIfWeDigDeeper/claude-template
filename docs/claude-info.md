@@ -35,7 +35,7 @@ More details in [CLAUDE.md](../CLAUDE.md#skills-claude-can-suggest)
 
 Plugins extend Claude Code with additional commands, skills, and agents. Enabled in `.claude/settings.json`:
 
-### commit-commands
+### [commit-commands](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands)
 
 Git workflow automation:
 
@@ -45,13 +45,13 @@ Git workflow automation:
 | `/commit` | Create a git commit with generated message |
 | `/clean_gone` | Clean up local branches deleted on remote (marked as `[gone]`) |
 
-### code-review
+### [code-review](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review)
 
 | Command | Purpose |
 |---------|---------|
 | `/code-review` | Review a pull request for issues and improvements |
 
-### pr-review-toolkit
+### [pr-review-toolkit](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/pr-review-toolkit)
 
 Comprehensive PR review with specialized agents:
 
@@ -67,7 +67,7 @@ Agents (used automatically during reviews):
 - `pr-test-analyzer` - Reviews test coverage quality
 - `type-design-analyzer` - Analyzes type design for encapsulation and invariants
 
-### feature-dev
+### [feature-dev](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/feature-dev)
 
 Guided feature development:
 
@@ -80,26 +80,26 @@ Agents:
 - `code-explorer` - Analyzes existing features and architecture
 - `code-architect` - Designs feature architectures based on existing patterns
 
-### claude-md-management
+### [claude-md-management](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-md-management)
 
 | Command | Purpose |
 |---------|---------|
 | `/revise-claude-md` | Update CLAUDE.md with learnings from session |
 | `/claude-md-improver` | Audit and improve CLAUDE.md files in repository |
 
-### claude-code-setup
+### [claude-code-setup](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup)
 
 | Command | Purpose |
 |---------|---------|
 | `/claude-automation-recommender` | Analyze codebase and recommend Claude Code automations |
 
-### frontend-design
+### [frontend-design](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design)
 
 | Command | Purpose |
 |---------|---------|
 | `/frontend-design` | Create distinctive, production-grade frontend interfaces |
 
-### ralph-loop
+### [ralph-loop](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop)
 
 Agentic loop for continuous development:
 
@@ -109,19 +109,19 @@ Agentic loop for continuous development:
 | `/cancel-ralph` | Cancel active Ralph Loop |
 | `/help` | Explain Ralph Loop plugin |
 
-### code-simplifier
+### [code-simplifier](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier)
 
 Automatically invoked to simplify and refine code for clarity and maintainability.
 
-### playwright
+### [playwright](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/playwright)
 
 Provides browser automation tools for testing and web interaction.
 
-### typescript-lsp
+### [typescript-lsp](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/typescript-lsp)
 
 TypeScript language server integration for enhanced code intelligence.
 
-### security-guidance
+### [security-guidance](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance)
 
 Security best practices and guidance during development.
 
